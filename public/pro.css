@@ -1,0 +1,35 @@
+.demo{
+    margin:40px auto;
+    width:520px;
+    border: 2px solid lightgray;
+    padding: 10px;
+    border-radius: 14px;
+}
+.demo-img{
+    width:100%;
+    border-radius: 14px;
+}
+.profile{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.user{
+ height: 60px;
+ width:60px;
+ border-radius: 50%;
+}
+.name{
+    margin:0;
+}
+.username{
+    margin:0;
+    font-size: 14px;
+    color: rgb(75, 73, 73);
+}
+.header-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}

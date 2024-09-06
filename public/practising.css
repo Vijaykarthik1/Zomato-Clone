@@ -1,0 +1,88 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+h3{
+    font-size: 18px;
+}
+p{
+    margin: 0;
+    font-size: 14px;
+    padding-bottom: 8px;
+    padding-left: 5px;
+}
+.card{
+    width:300px;
+    border: 2px solid lightgray;
+    border-radius: 14px;
+}
+.img{
+    width:100%;
+    border-radius: 14px;
+}
+.card-img{
+    position:relative;
+}
+.ratings{
+    position: absolute;
+    bottom: 0;
+    border-radius: 10px;
+    padding: 0px 20px;
+    background-color: rgb(255, 145, 0);
+    color: rgba(255, 255, 0, 0.76);
+    margin: 12px;
+}
+.star {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 12px;
+    color: white;
+    /* Adjust padding to control the background color */
+}
+.info{
+    position: absolute;
+    top:0;
+    margin: 12px;
+    color: black;
+}
+
+.card-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    flex-wrap: wrap;
+}
+.header{
+    width: 100%;
+    display: flex;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.img-logo{
+    height: 24px;
+    margin-left: 80px;
+}
+.search{
+    margin-left:-30px;
+}
+.input{
+    padding: 12px;
+    font-size: 18.5px;
+}
+.button{
+    background-color: white;
+    border: 1px solid lightgray;
+    padding:15px 26px;
+    font-size: 16px;
+    border-radius: 12px;
+    margin-right: 80px;
+}
